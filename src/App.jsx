@@ -1,13 +1,14 @@
 import React from 'react'
-import Navbar from './assets/components/Navbar'
-import Hero from './assets/components/Hero'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+
 
 function App() {
   return (
     <div>
 
-      <Navbar/>
-      <Hero/>
+    <Navbar/>
+    <Hero/>
     </div>
   )
 }
