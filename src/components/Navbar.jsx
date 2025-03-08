@@ -9,7 +9,7 @@ function Navbar() {
             <div className="space-x-6 text-xl font-semibold">
                 <Link to="home" spy={true} smooth={true} duration={500} className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out">Home</Link>
                 <Link to="about" spy={true} smooth={true} duration={500} className="hover:text-gray-400 cursor-pointer">About Me</Link>
-                <Link to="services" spy={true} smooth={true} duration={500} className="hover:text-gray-400 cursor-pointer">Certificates</Link>
+                <Link to="certification" spy={true} smooth={true} duration={500} className="hover:text-gray-400 cursor-pointer">Certificates</Link>
                 <Link to="projects" spy={true} smooth={true} duration={500} className="hover:text-gray-400 cursor-pointer">Projects</Link>
                 <Link to="contact" spy={true} smooth={true} duration={500} className="hover:text-gray-400 cursor-pointer">Contact</Link>
             </div>
