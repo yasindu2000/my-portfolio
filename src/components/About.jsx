@@ -9,11 +9,11 @@ function About() {
     <div className="bg-black text-white py-20" id="about">
       <div className="container mx-auto px-8 md:px-16 lg:px-24 mb-30 mt-10">
         <h2 className="text-5xl font-bold text-center mb-15">About Me</h2>
-        <div className="flex flex-col md:flex-row items-center md:space-x-12">
+        <div className="flex flex-col md:flex-row items-center md:space-x-12 ">
           <img
             src={AboutImg}
             alt=""
-            className="w-72 h-90 rounded object-cover mb-8 md:mb-0"
+            className="w-72 h-90 rounded object-cover mb-8 md:mb-0 transition-transform duration-300 hover:scale-105"
           />
           <div className="flex-1">
             <p className="text-lg mb-8">
@@ -79,7 +79,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <div className="mt-6 flex justify-center  ">
+            <div className="mt-6 flex flex-wrap items-start -ml-5">
                 <div className='p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in'>
                     <RiReactjsLine className='text-5xl text-cyan-400'/>
                  

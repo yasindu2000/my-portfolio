@@ -5,9 +5,9 @@ function Navbar() {
   return (
     <nav className="bg-black text-white px-8 md:px-16 lg:px-24">
         <div className="container py-4 flex justify-center md:justify-between items-center">
-            <div className="text-4xl font-bold  hidden md:inline cursor-pointer  text-transparent bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text" id='home'>Portfolio</div>
-            <div className="space-x-6 text-xl">
-                <Link to="home" spy={true} smooth={true} duration={500} className="hover:text-gray-400 cursor-pointer">Home</Link>
+            <div className="text-4xl font-bold  hidden md:inline cursor-pointer text-white" id='home'>Portfolio</div>
+            <div className="space-x-6 text-xl font-semibold">
+                <Link to="home" spy={true} smooth={true} duration={500} className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out">Home</Link>
                 <Link to="about" spy={true} smooth={true} duration={500} className="hover:text-gray-400 cursor-pointer">About Me</Link>
                 <Link to="services" spy={true} smooth={true} duration={500} className="hover:text-gray-400 cursor-pointer">Certificates</Link>
                 <Link to="projects" spy={true} smooth={true} duration={500} className="hover:text-gray-400 cursor-pointer">Projects</Link>
