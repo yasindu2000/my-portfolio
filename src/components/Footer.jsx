@@ -13,14 +13,14 @@ function Footer() {
             &copy; {new Date().getFullYear()}. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="https://www.facebook.com/yasindu.dahanayake" className="text-gray-400 hover:text-white hover:scale-125 transition duration-300 ease-in text-2xl">
+            <a href="https://www.facebook.com/yasindu.dahanayake" className="text-gray-400 hover:text-white hover:scale-125 transition duration-300 ease-in text-xl">
                                       <FaFacebook />
                                     </a>
                                     
-                                    <a href="https://www.linkedin.com/in/yasindu-dahanayaka-6342ba261" className="text-gray-400 hover:text-white hover:scale-125 transition duration-300 ease-in text-2xl">
+                                    <a href="https://www.linkedin.com/in/yasindu-dahanayaka-6342ba261" className="text-gray-400 hover:text-white hover:scale-125 transition duration-300 ease-in text-xl">
                                       <FaLinkedin />
                                     </a>
-                                    <a href="https://github.com/yasindu2000" className="text-gray-400 hover:text-white hover:scale-125 transition duration-300 ease-in text-2xl">
+                                    <a href="https://github.com/yasindu2000" className="text-gray-400 hover:text-white hover:scale-125 transition duration-300 ease-in text-xl">
                                       <FaGithub />
                                     </a>
           </div>
