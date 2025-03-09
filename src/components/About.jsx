@@ -4,6 +4,7 @@ import { RiReactjsLine } from 'react-icons/ri'
 import { SiExpress, SiJavascript, SiMongodb } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'
 
+
 function About() {
   return (
     <div className="bg-black text-white py-30" id="about">
@@ -99,8 +100,9 @@ function About() {
             </div>
           </div>
         </div>
+        </div>
       </div>
-    </div>
+    
   )
 }
 
