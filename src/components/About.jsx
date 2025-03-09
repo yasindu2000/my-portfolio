@@ -6,8 +6,8 @@ import { FaNodeJs } from 'react-icons/fa'
 
 function About() {
   return (
-    <div className="bg-black text-white py-15" id="about">
-      <div className="container mx-auto px-8 md:px-16 lg:px-24 mb-30 mt-10">
+    <div className="bg-black text-white py-30" id="about">
+      <div className="container mx-auto px-8 md:px-16 lg:px-24 ">
         <h2 className="text-5xl font-bold text-center mb-15">About Me</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12 ">
           <img

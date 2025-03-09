@@ -30,7 +30,7 @@ function Contact() {
     }
   };
   return (
-    <div className="bg-black text-white py-4 " id="contact">
+    <div className="bg-black text-white py-20 " id="contact">
       <div className="container mx-auto px-8 md:px-16 lg:px-24 ">
         <h2 className="text-5xl font-bold text-center mb-15">Contact Me</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12 mb-30">

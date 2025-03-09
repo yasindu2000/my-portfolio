@@ -12,7 +12,7 @@ function Footer() {
           <p className="text-gray-400">
             &copy; {new Date().getFullYear()}. All rights reserved.
           </p>
-          <div className="flex space-x-4 my-4 md:my-0">
+          <div className="flex space-x-4 my-4 md:my-0 gap-3">
             <a href="https://www.facebook.com/yasindu.dahanayake" className="text-gray-400 hover:text-white hover:scale-125 transition duration-300 ease-in text-xl">
                                       <FaFacebook />
                                     </a>

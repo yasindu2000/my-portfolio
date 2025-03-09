@@ -7,7 +7,7 @@ import { Link } from 'react-scroll'
 function Hero() {
   
   return (
-    <div className='bg-black text-white text-center py-25 '>
+    <div className='bg-black text-white text-center py-30 '>
         <img src={HeroImage} alt="" className="mx-auto mb-10 w-52 h-52 rounded-full object-cover transform transition-transform duration-300 hover:scale-105" />
         <h1 className='text-4xl font-bold'>
           I'm {" "}
