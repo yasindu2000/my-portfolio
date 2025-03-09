@@ -1,27 +1,28 @@
 import React from 'react'
-import employeeMSImage from "../assets/employee-ms.png";
-import bookMSImage from "../assets/admin-dashboard.png";
+import burgetImg from '../assets/burger.png'
+import productImg from '../assets/product.png'
+import crudImg from '../assets/crud.png'
 
 const projects = [
     {
       id: 1,
       name: "Product Store Site",
       technologies: "MERN Stack",
-      image: employeeMSImage,
+      image: productImg,
       github: "https://github.com/yasindu2000/Product-store-reactjs-nodejs.git",
     },
     {
       id: 2,
       name: "CRUD App",
       technologies: "MERN Stack",
-      image: bookMSImage,
+      image: crudImg,
       github: "https://github.com/yasindu2000/MERN-Stack-CRUD-App.git",
     },
     {
       id: 3,
       name: "Burger Frontend Website",
       technologies: "React JS",
-      image: employeeMSImage,
+      image: burgetImg,
       github: "https://github.com/yasindu2000/burger-web.git",
     },
   ];
