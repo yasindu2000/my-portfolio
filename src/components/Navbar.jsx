@@ -11,7 +11,7 @@ function Navbar() {
       <div className="container mx-auto py-4 flex justify-between items-center">
         
         <div className="text-3xl font-bold cursor-pointer text-white">
-          Portfolio
+          <Link to="home" spy={true} smooth={true} duration={500}>Portfolio</Link>
         </div>
 
         

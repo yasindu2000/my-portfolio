@@ -13,14 +13,14 @@ function About() {
           <img
             src={AboutImg}
             alt=""
-            className="w-72 h-90 rounded object-cover mb-8 md:mb-0 transition-transform duration-300 hover:scale-105"
+            className="w-72 h-100 rounded object-cover mb-8 md:mb-0 transition-transform duration-300 hover:scale-105"
           />
           <div className="flex-1">
             <p className="text-lg mb-8">
-              I am a passionate full-stack developer with a focus on building
-              modern and responsive web applications. With a strong foundation
-              in both frontend and backend technologies, I strive to create
-              seamless and efficient user experiences.
+            " I'm a MERN Stack Developer and an undergraduate at NSBM Green University. 
+            Passionate about building modern, responsive web applications, I specialize 
+            in creating scalable and efficient solutions. Always eager to learn and innovate
+            in the world of full-stack development."
             </p>
             <div className="space-y-4">
               <div className="flex items-center">
