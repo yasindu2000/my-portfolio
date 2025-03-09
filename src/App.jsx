@@ -6,11 +6,12 @@ import Certification from './components/Certification'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import { ToastContainer} from 'react-toastify';
+import Footer from './components/Footer'
 
 
 function App() {
   return (
-    <div>
+    <div className=''>
    <ToastContainer theme="dark"/>
 
     <Navbar/>
@@ -19,6 +20,7 @@ function App() {
     <Certification/>
     <Projects/>
     <Contact/>
+    <Footer/>
     </div>
   )
 }

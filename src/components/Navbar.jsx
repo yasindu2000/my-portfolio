@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -13,7 +14,18 @@ function Navbar() {
                 <Link to="projects" spy={true} smooth={true} duration={500} className="hover:text-gray-400 cursor-pointer">Projects</Link>
                 <Link to="contact" spy={true} smooth={true} duration={500} className="hover:text-gray-400 cursor-pointer">Contact</Link>
             </div>
-            <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full cursor-pointer font-bold text-center">Connect Me</button>
+            <div className="flex space-x-4 my-4 md:my-0 gap-2">
+                        <a href="https://www.facebook.com/yasindu.dahanayake" className="text-gray-400 hover:text-white hover:scale-125 transition duration-300 ease-in text-2xl">
+                          <FaFacebook />
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/yasindu-dahanayaka-6342ba261" className="text-gray-400 hover:text-white hover:scale-125 transition duration-300 ease-in text-2xl">
+                          <FaLinkedin />
+                        </a>
+                        <a href="https://github.com/yasindu2000" className="text-gray-400 hover:text-white hover:scale-125 transition duration-300 ease-in text-2xl">
+                          <FaGithub />
+                        </a>
+                      </div>
         </div>
     </nav>
   )
