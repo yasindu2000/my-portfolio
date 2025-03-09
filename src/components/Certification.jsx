@@ -75,10 +75,10 @@ function Certification() {
               </div>
               {service.image}
               <h3 className="mt-2 text-2xl font-bold text-transparent bg-clip-text 
-              bg-gradient-to-r from-green-400 to-blue-500">
+              bg-gradient-to-r from-green-400 to-blue-500 font-mono">
                 {service.title}
               </h3>
-              <p className="mt-2 text-gray-300">{service.description}</p>
+              <p className="mt-2 text-gray-300 font-">{service.description}</p>
               {service.link}
             </div>
           ))}

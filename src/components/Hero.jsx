@@ -5,12 +5,12 @@ function Hero() {
   return (
     <div className='bg-black text-white text-center py-25 '>
         <img src={HeroImage} alt="" className="mx-auto mb-10 w-52 h-52 rounded-full object-cover transform transition-transform duration-300 hover:scale-105" />
-        <h1 className='text-5xl font-bold'>
+        <h1 className='text-4xl font-bold'>
           I'm {" "}
           <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Yasindu Dahanayaka </span>
           , MERN-Stack Developer
         </h1>
-        <p className='mt-5  text-gray-300 text-2xl'>
+        <p className='mt-5  text-gray-300 text-xl'>
           I specialize in building modern and responsive web applications.
         </p>
         <div className='mt-12 space-x-4'>

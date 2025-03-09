@@ -24,7 +24,7 @@ function About() {
             </p>
             <div className="space-y-4">
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
+                <label htmlFor="htmlandcss" className="w-2/12 font-mono text-lg">
                   HTML & CSS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -35,7 +35,7 @@ function About() {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
+                <label htmlFor="htmlandcss" className="w-2/12 font-mono text-lg">
                   React JS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -46,7 +46,7 @@ function About() {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
+                <label htmlFor="htmlandcss" className="w-2/12 font-mono text-lg">
                   Node JS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -57,7 +57,7 @@ function About() {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
+                <label htmlFor="htmlandcss" className="w-2/12 font-mono text-lg">
                   Express JS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -68,7 +68,7 @@ function About() {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
+                <label htmlFor="htmlandcss" className="w-2/12 font-mono text-lg">
                   Mongo DB
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
