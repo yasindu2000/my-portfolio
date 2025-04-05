@@ -1,9 +1,15 @@
-import React from 'react'
-import AboutImg from '../assets/logo.jpg'
-import { RiReactjsLine } from 'react-icons/ri'
-import { SiExpress, SiJavascript, SiMongodb } from 'react-icons/si'
-import { FaNodeJs } from 'react-icons/fa'
-
+import React from "react";
+import AboutImg from "../assets/logo.jpg";
+import { RiReactjsLine } from "react-icons/ri";
+import {
+  SiExpress,
+  SiJavascript,
+  SiMongodb,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss3,
+} from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 
 function About() {
   return (
@@ -18,14 +24,18 @@ function About() {
           />
           <div className="flex-1">
             <p className="text-lg mb-8">
-            " I'm a MERN Stack Developer and an undergraduate at NSBM Green University. 
-            Passionate about building modern, responsive web applications, I specialize 
-            in creating scalable and efficient solutions. Always eager to learn and innovate
-            in the world of full-stack development."
+              " I'm a MERN Stack Developer and an undergraduate at NSBM Green
+              University. Passionate about building modern, responsive web
+              applications, I specialize in creating scalable and efficient
+              solutions. Always eager to learn and innovate in the world of
+              full-stack development."
             </p>
             <div className="space-y-4">
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12 font-mono text-lg">
+                <label
+                  htmlFor="htmlandcss"
+                  className="w-2/12 font-mono text-lg"
+                >
                   HTML & CSS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -36,7 +46,10 @@ function About() {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12 font-mono text-lg">
+                <label
+                  htmlFor="htmlandcss"
+                  className="w-2/12 font-mono text-lg"
+                >
                   React JS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -47,7 +60,10 @@ function About() {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12 font-mono text-lg">
+                <label
+                  htmlFor="htmlandcss"
+                  className="w-2/12 font-mono text-lg"
+                >
                   Node JS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -58,7 +74,10 @@ function About() {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12 font-mono text-lg">
+                <label
+                  htmlFor="htmlandcss"
+                  className="w-2/12 font-mono text-lg"
+                >
                   Express JS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -69,7 +88,10 @@ function About() {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12 font-mono text-lg">
+                <label
+                  htmlFor="htmlandcss"
+                  className="w-2/12 font-mono text-lg"
+                >
                   Mongo DB
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -81,29 +103,37 @@ function About() {
               </div>
             </div>
             <div className="mt-6 flex flex-wrap items-start -ml-5">
-                <div className='p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in'>
-                    <RiReactjsLine className='text-5xl text-cyan-400'/>
-                 
-                </div>
-                <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
-                    <SiMongodb className='text-5xl text-green-500'/>
-                </div>
-                <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
-                    <FaNodeJs className='text-5xl text-green-500'/>
-                </div>
-                <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
-                    <SiExpress className='text-5xl text-green-700'/>
-                </div>
-                <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
-                    <SiJavascript className="text-5xl text-yellow-500"/>
-                </div>
+              <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
+                <SiHtml5 className="text-5xl text-orange-600" />
+              </div>
+              <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
+                <SiCss3 className="text-5xl text-blue-600" />
+              </div>
+              <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
+                <SiJavascript className="text-5xl text-yellow-500" />
+              </div>
+              <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
+                <RiReactjsLine className="text-5xl text-cyan-400" />
+              </div>
+              <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
+                <SiMongodb className="text-5xl text-green-500" />
+              </div>
+              <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
+                <FaNodeJs className="text-5xl text-green-500" />
+              </div>
+              <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
+                <SiExpress className="text-5xl text-green-700" />
+              </div>
+              
+              <div className="p-4 cursor-pointer hover:scale-125 transition duration-300 ease-in">
+                <SiTailwindcss className="text-5xl text-sky-400" />
+              </div>
             </div>
           </div>
         </div>
-        </div>
       </div>
-    
-  )
+    </div>
+  );
 }
 
-export default About
+export default About;
