@@ -3,6 +3,7 @@ import burgetImg from '../assets/burger.png'
 import productImg from '../assets/product.png'
 import crudImg from '../assets/crud.png'
 import libraryImg from '../assets/library.png'
+import facebookImg from '../assets/facebook.png'
 
 const projects = [
     {
@@ -33,6 +34,13 @@ const projects = [
       image: libraryImg,
       github: "https://github.com/yasindu2000/Bookstore-Management-System.git",
     },
+    {
+      id: 5,
+      name: "Facebook Desktop Interface",
+      technologies: "React JS",
+      image: facebookImg,
+      github: "https://github.com/yasindu2000/React-Facebook-Interface.git",
+    }
     
   ];
   

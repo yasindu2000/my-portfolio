@@ -8,17 +8,17 @@ import { Link } from 'react-scroll'
 function Hero() {
   
   return (
-    <div className='bg-black text-white text-center py-30 ' id='home'>
+    <div className='bg-black text-white text-center py-60 ' id='home'>
     
-        <img src={HeroImage} alt="" className="mx-auto mb-10 w-52 h-52 rounded-full object-cover transform transition-transform duration-300 hover:scale-105" />
+        <img src={HeroImage} alt="" className="mx-auto mb-10 w-60 h-60 rounded-full object-cover transform transition-transform duration-300 hover:scale-105" />
         
         
-        <h1 className='text-4xl font-bold'>
+        <h1 className='text-5xl font-bold'>
           I'm {" "}
           <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Yasindu Dahanayaka </span>
           , MERN-Stack Developer
         </h1>
-        <p className='mt-5  text-gray-300 text-xl'>
+        <p className='mt-5  text-gray-300 text-2xl'>
         I'm a MERN Stack Developer and an undergraduate at NSBM Green University. <br></br>
         Passionate about building modern, responsive web applications !!
         </p>

@@ -10,12 +10,12 @@ function Navbar() {
     <nav className="bg-black text-white px-6 md:px-16 lg:px-24 w-full fixed z-50">
       <div className="container mx-auto py-4 flex justify-between items-center">
         
-        <div className="text-3xl font-bold cursor-pointer text-white">
+        <div className="text-4xl font-bold cursor-pointer text-white">
           <Link to="home" spy={true} smooth={true} duration={500}>Portfolio</Link>
         </div>
 
         
-        <div className="hidden md:flex space-x-6 text-lg font-semibold">
+        <div className="hidden md:flex space-x-8 text-2xl font-semibold">
           <Link to="home" spy={true} smooth={true} duration={500} className="cursor-pointer hover:text-gray-400">Home</Link>
           <Link to="about" spy={true} smooth={true} duration={500} className="cursor-pointer hover:text-gray-400">About Me</Link>
           <Link to="certification" spy={true} smooth={true} duration={500} className="cursor-pointer hover:text-gray-400">Certificates</Link>
@@ -24,7 +24,7 @@ function Navbar() {
         </div>
 
         
-        <div className="hidden md:flex space-x-4 text-2xl gap-3">
+        <div className="hidden md:flex space-x-4 text-4xl gap-3">
           <a href="https://www.facebook.com/yasindu.dahanayake" className="text-gray-400 hover:text-white hover:scale-125 transition duration-300">
             <FaFacebook />
           </a>
