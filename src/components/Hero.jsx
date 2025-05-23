@@ -15,7 +15,7 @@ function Hero() {
         
         <h1 className='text-5xl font-bold'>
           I'm {" "}
-          <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Yasindu Dahanayaka </span>
+          <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Yasindu</span>
           , MERN-Stack Developer
         </h1>
         <p className='mt-5  text-gray-300 text-2xl'>
