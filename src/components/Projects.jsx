@@ -2,6 +2,7 @@ import React from 'react'
 import burgetImg from '../assets/burger.png'
 import productImg from '../assets/product.png'
 import crudImg from '../assets/crud.png'
+import libraryImg from '../assets/library.png'
 
 const projects = [
     {
@@ -13,7 +14,7 @@ const projects = [
     },
     {
       id: 2,
-      name: "CRUD App",
+      name: "Student MenagementCRUD App",
       technologies: "MERN Stack",
       image: crudImg,
       github: "https://github.com/yasindu2000/MERN-Stack-CRUD-App.git",
@@ -25,6 +26,14 @@ const projects = [
       image: burgetImg,
       github: "https://github.com/yasindu2000/burger-web.git",
     },
+    {
+      id: 4,
+      name: "Library Menagement System",
+      technologies: "MERN Stack",
+      image: libraryImg,
+      github: "https://github.com/yasindu2000/Bookstore-Management-System.git",
+    },
+    
   ];
   
 
