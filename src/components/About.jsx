@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../assets/yasindu_cv.png";
+import AboutImg from "../assets/yasindu_cv2.png";
 import { RiReactjsLine } from "react-icons/ri";
 import {
   SiExpress,
