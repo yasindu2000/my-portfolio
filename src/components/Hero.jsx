@@ -1,4 +1,4 @@
-import React from 'react'
+
 import HeroImage from '../assets/yasindu_cv24.png'
 import { Link } from 'react-scroll'
 
