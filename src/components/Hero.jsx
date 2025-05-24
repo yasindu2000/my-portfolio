@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../assets/yasindu_cv2.jpg'
+import HeroImage from '../assets/yasindu_cv24.png'
 import { Link } from 'react-scroll'
 
 
@@ -10,7 +10,7 @@ function Hero() {
   return (
     <div className='bg-black text-white text-center py-50 ' id='home'>
     
-        <img src={HeroImage} alt="" className="mx-auto mb-10 w-60 h-60 rounded-full object-cover transform transition-transform duration-300 hover:scale-105" />
+        <img src={HeroImage} alt="" className="mx-auto mb-10 w-85 h-85 rounded-full object-cover transform transition-transform duration-300 hover:scale-105 " />
         
         
         <h1 className='text-5xl font-bold'>
