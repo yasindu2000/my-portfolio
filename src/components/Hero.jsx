@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../assets/yasindu_cv2.jpg'
+import HeroImage from '../assets/yasindu_cv2.png'
 import { Link } from 'react-scroll'
 
 
